@@ -1,0 +1,29 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Gazebo
+*.bag
+*.bag.active
+
+# Metrics output
+surgical_sim_metrics.csv
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
