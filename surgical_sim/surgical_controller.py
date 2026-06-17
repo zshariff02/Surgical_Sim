@@ -43,7 +43,7 @@ ORIENT_TOLERANCE_RAD  = 0.0087  # 0.5 degrees
 MAX_PLANNING_TIME_S   = 0.500   # 500 ms
 MAX_VELOCITY_SCALE    = 0.20    # 20 % of joint max during approach
 
-PLANNING_GROUP = 'manipulator'
+PLANNING_GROUP = 'ur_manipulator'
 END_EFFECTOR   = 'tool0'
 
 
